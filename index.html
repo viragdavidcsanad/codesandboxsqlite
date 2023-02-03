@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Azure Project Client Side</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1>First Azure Project Client Side</h1>
+  <p>This is the client side of the first Azure porject.</p>
+  <form class="js_form" action="http://localhost:8901/api/features/new" method="POST">
+    <!-- https://first-azure-project.azurewebsites.net/api/features/new -->
+    <input type="text" name="feature" placeholder="Enter feature" />
+    <input type="text" name="version" placeholder="Enter version" />
+    <input type="number" name="year" placeholder="Enter year" />
+    <input class="js_insert_submit" type="submit" value="Submit" />
+  </form>
+  <section class="backside-content">
+    <h2>Backend Content</h2>
+    <ul class="js_content">
+      Loading...
+    </ul>
+  </section>
+  <script src="./index.js"></script>
+</body>
+
+</html>
