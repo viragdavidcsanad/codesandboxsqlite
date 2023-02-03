@@ -12,7 +12,7 @@ const request = new Request(link, {
   mode: "cors",
 });
 
-const fresh = fetch(request)
+fetch(request)
   .then((data) => data.json())
   .then((features) => {
     $jsContent.innerHTML = ``;
@@ -29,4 +29,3 @@ const fresh = fetch(request)
     );
   });
 
-fresh;
