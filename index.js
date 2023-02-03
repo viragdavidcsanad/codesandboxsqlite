@@ -6,7 +6,7 @@ const $jsContent = document.querySelector(".js_content");
 
 const headers = new Headers();
 headers.append("Accept", "application/json");
-const request = new Request(url, {
+const request = new Request(link, {
   method: "POST",
   headers,
   mode: "cors",
