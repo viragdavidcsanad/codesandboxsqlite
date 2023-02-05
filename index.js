@@ -1,8 +1,9 @@
-const link = "https://first-azure-project.azurewebsites.net/api/features";
+const link = "https://v688g1-8901.preview.csb.app/api/features";
 const $jsContent = document.querySelector(".js_content");
 
-//
+// 
 // http://localhost:8901/api/features
+// https://first-azure-project.azurewebsites.net
 
 fetch(link)
   .then((data) => data.json())
